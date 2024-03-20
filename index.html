@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApniCar</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Apni<span>Car</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#vechicals">Vehicles</a>
+            <a href="#services">Services</a>
+            <a href="#featured">Featured</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="login-btn">
+            <button type="button" class="btn">Login</button>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </header>
+
+    <div class="login-form-container">
+        <span class="fa-solid fa-xmark" id="close-login-btn"></span>
+        <form action="login.php" method="POST">
+            <h3>User Login</h3>
+            <input type="email" name="email" placeholder="Email" class="box" style="border: dotted black 1px;">
+            <input type="password" name="password" placeholder="Password" class="box" style="border: dotted black 1px;">
+            <p>Forgot your password? <a href="#">Click here</a></p>
+            <input type="submit" value="Login Now" class="btn">
+        </form>
+    </div>
+
+    <section class="home" id="home">
+        <h1 class="home-parallax" data-speed="-2">Your Personalized Car Shopping Experience</h1>
+        <img class="home-parallax" data-speed="5" src="./pngwing.com.png" alt="">
+        <a class="btn home-parallax" data-speed="7" href="#">Explore Cars</a>
+    </section>
+
+    <script src="https://kit.fontawesome.com/ca9a6c5a17.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
